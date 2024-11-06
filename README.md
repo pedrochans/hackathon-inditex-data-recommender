@@ -177,7 +177,7 @@ Ensure that all data manipulation and model training strictly utilize the librar
 ## ❓ FAQs
 
 **Q1: How do I run the sample tests?**
-A3: In the command line, write the command `python -m pytest tests/function_test.py` for Task 2. Ensure the `train.csv` file is located in the `/data/raw/` directory.
+A3: In the command line, write the command `python -m pytest tests/function_tests.py` for Task 2. Ensure the `train.csv` file is located in the `/data/raw/` directory.
 
 **Q2: How do I submit my solution?**
 A4: Submit your solution via Git. Once your code and predictions are ready,commit your changes to the main branch and push your repository. Your submission will be graded automatically within a few minutes. Make sure to write meaningful commit messages.
