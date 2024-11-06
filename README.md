@@ -27,7 +27,7 @@ There will be three different datasets available:
   - Data available though api endpoint:
     -  API Endpoints: `https://plankton-app-b2fk7.ondigitalocean.app/docs`
     -  Parameters required: `user_id`
-    -  Result: A dictionary with client details as values. Each paremeter is returned as a list as a user may have more than one entry.
+    -  Result: A dictionary with client details as values. Each parameter is returned as a list as a user may have more than one entry.
 
 ``` 
 {
@@ -49,7 +49,7 @@ There will be three different datasets available:
     - `color_id`: Product color identifier.
     - `cod_section`: Section to which the product belongs.
     - `familiy`: Product family to which the product belongs.
-  - Data available at: [Download product data](https://cdn.nuwe.io/challenges-ds-datasets/hackathon-inditex-data-24/products.csv)
+  - Data available at: [Download product data](https://cdn.nuwe.io/challenges-ds-datasets/hackathon-inditex-data-24/products.pkl)
 - Train, Test:
   - `session_id`: Session identifier.
   - `date`: Interaction date.
@@ -75,7 +75,7 @@ Implement data processing for a recommender system to clean, filter, and normali
 
 Develop a recommender system capable of recommending **5 products** (`partnumber`) to a user. Take into account that the user may be logged in or not, that they may have had some previous interactions within the plaform, and any other aspect you may consider relevant.
 
-## 📂 Respository Structure
+## 📂 Repository Structure
 The repository structure is provided and must be adhered to strictly:
 
 ```
