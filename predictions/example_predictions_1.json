@@ -1,0 +1,25 @@
+{
+    "target": {
+        "query_1": {
+            "partnumber": 6234
+        },
+        "query_2": {
+            "user_id": 34572
+        },
+        "query_3": {
+            "session_id": 347457568
+        },
+        "query_4": {
+            "device_type": 23
+        },
+        "query_5": {
+            "user_id": 123734
+        },
+        "query_6": {
+            "unique_families": 2357
+        },
+        "query_7": {
+            "session_id": 3216767
+        }
+    }
+}
