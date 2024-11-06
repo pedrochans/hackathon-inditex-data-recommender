@@ -152,7 +152,6 @@ Submit a `predictions_1.json` file for the queries in task 1 and a `predictions_
 
 ## 📊 Evaluation
 - **Task 1:** The questions of this tasks will be evaluated via JSON file, comparing your answer in `predictions_1.json` against the expected value.
-- 
 - **Task 2:** The function will be evaluated via PyTest. You are provided with some sample tests in the `/tests` folder, take into account that for the evaluation the tests will be a different subset not provided. 
 
 - **Task 3** 
@@ -175,14 +174,8 @@ Ensure that all data manipulation and model training strictly utilize the librar
 
 ## ❓ FAQs
 
-**Q1: Where do I find the user id's to call the API?**
-A1: The needed users can be found in the given train and tests datasets. Use those ID's to obtain the user's data.
-
-<!-- **Q2: What type of data will I be working with?**
-A2: The challenge uses the COCO Dataset, which includes images with annotated objects for detection. -->
-
-**Q3: How do I run the sample tests?**
+**Q1: How do I run the sample tests?**
 A3: In the command line, write the command `python -m pytest tests/function_test.py` for Task 2. Ensure the `train.csv` file is located in the `/data/raw/` directory.
 
-**Q4: How do I submit my solution?**
+**Q2: How do I submit my solution?**
 A4: Submit your solution via Git. Once your code and predictions are ready,commit your changes to the main branch and push your repository. Your submission will be graded automatically within a few minutes. Make sure to write meaningful commit messages.
