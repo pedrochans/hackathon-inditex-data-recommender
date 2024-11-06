@@ -132,7 +132,7 @@ def get_session_metrics(df: pd.DataFrame,user_id: int)-> pd.DataFrame:
 ```
 
 - **Task 3:**
-  You are tasked with building a **recommendation system** to suggest **five products** for each user. 
+  You are tasked with building a **recommendation system** to suggest **five products** for each session ID. 
 
   You are provided with data on products, customers, and a training dataset (Train). The test dataset (Test) is balanced across four customer types:
 
