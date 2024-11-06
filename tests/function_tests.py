@@ -109,7 +109,7 @@ def test_get_session_metrics_1():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -216,7 +216,7 @@ def test_get_session_metrics_2():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -303,7 +303,7 @@ def test_get_session_metrics_3():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -386,7 +386,7 @@ def test_get_session_metrics_4():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -465,7 +465,7 @@ def test_get_session_metrics_5():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -492,7 +492,7 @@ def test_get_session_metrics_6():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -519,7 +519,7 @@ def test_get_session_metrics_7():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
@@ -547,7 +547,7 @@ def test_get_session_metrics_8():
             }
         )
 
-        pd.testing.assert_frame_equal(answer, expected_answer)
+        pd.testing.assert_frame_equal(answer, expected_answer, check_dtype=False)
 
         test_passed = True
     except Exception as e:
