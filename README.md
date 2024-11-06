@@ -36,8 +36,8 @@ There will be three different datasets available:
     {
       "country":[25],
       "R": [26],
-      "F": ["1989"], 
-      "M": ["1989"], 
+      "F": [1979], 
+      "M": [198], 
     }
 }
 ```
@@ -49,7 +49,7 @@ There will be three different datasets available:
     - `color_id`: Product color identifier.
     - `cod_section`: Section to which the product belongs.
     - `familiy`: Product family to which the product belongs.
-  - Data available at: [Download product data](https://cdn.nuwe.io/challenges-ds-datasets/hackathon-inditex-data-24/products.pkl)
+  - Data available at: [Download product data](https://cdn.nuwe.io/challenges-ds-datasets/hackathon-inditex-data-24/products.zip)
 - Train, Test:
   - `session_id`: Session identifier.
   - `date`: Interaction date.
