@@ -41,6 +41,7 @@ There will be three different datasets available:
     }
 }
 ```
+
 - Products: Data of all the available products 
   - Variables:
     - `discount`: Boolean indicating if the product is on sale.
@@ -51,15 +52,16 @@ There will be three different datasets available:
     - `familiy`: Product family to which the product belongs.
   - Data available at: [Download product data](https://cdn.nuwe.io/challenges-ds-datasets/hackathon-inditex-data-24/products.zip)
 - Train, Test:
-  - `session_id`: Session identifier.
-  - `date`: Interaction date.
-  - `timestamp_local`: Interaction timestamp.
-  - `user_id`: User identifier.
-  - `country`: Country identifier.
-  - `partnumber`: Product identifier with which the interaction occurred.
-  - `device_type`: Type of device used.
-  - `pagetype`: Type of page where the interaction occurred within the e-commerce site.
-  - `add_to_cart`: Boolean indicating if the interaction was adding to the cart. This variable won't be available in the test dataset.
+  -  Variables:
+      - `session_id`: Session identifier.
+      - `date`: Interaction date.
+      - `timestamp_local`: Interaction timestamp.
+      - `user_id`: User identifier.
+      - `country`: Country identifier.
+      - `partnumber`: Product identifier with which the interaction occurred.
+      - `device_type`: Type of device used.
+      - `pagetype`: Type of page where the interaction occurred within the e-commerce site.
+      - `add_to_cart`: Boolean indicating if the interaction was adding to the cart. This variable won't be available in the test dataset.
 
   - Datasets are available via direct link download:
     - [Download train data](https://cdn.nuwe.io/challenges-ds-datasets/hackathon-inditex-data-24/train.zip)
