@@ -122,7 +122,7 @@ This challenge will include two tasks: an initial exploratory task with question
   - **Q5:**Among users with purchase frequency (`F`) in the top 3 within their purchase country, who has interacted with the most products (`partnumber`) in sessions conducted from a device with identifierr 3 (`device_type` = 3)?
   - **Q6:** For interactions that occurred outside the user's country of residence, how many unique family identifiers are there?
   - **Q7:** Among interactions from the first 7 days of June by users with purchases value under 100, in which session is the sum of embeddings for all products they interacted with the lowest?
-   **Task 2:** Develop the following function:
+- **Task 2:** Develop the following function:
   - **Function:** Given a DataFrame with the format of the TRAIN dataset, return a DataFrame with the following columns: user identifier (`user_id`), session identifier (`session_id`), total session duration in seconds (`total_session_time`), and the percentage of products added to the cart out of the total products interacted with (`cart_addition_ratio`). The result should be sorted in ascending order by user identifier and then by session identifier.
 ```python
 def get_session_metrics(df: pd.DataFrame,user_id: int)-> pd.DataFrame:
