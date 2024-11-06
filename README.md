@@ -25,7 +25,7 @@ There will be three different datasets available:
     - `F`: User's purchase frequency.
     - `M`: Monetary value that the customer spends on purchases.
   - Data available though api endpoint:
-    -  API Endpoints: `https://plankton-app-b2fk7.ondigitalocean.app/docs`
+    -  API Endpoints: `https://zara-boost-hackathon.nuwe.io/docs`
     -  Parameters required: `user_id`
     -  Result: A dictionary with client details as values. Each parameter is returned as a list as a user may have more than one entry.
 
