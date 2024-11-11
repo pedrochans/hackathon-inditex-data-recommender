@@ -6,7 +6,7 @@ Subcategory   ➡️   Recommender systems
 
 Difficulty   ➡️   Medium
 
-Expected solution time ➡️ 8 hours. It is essential to complete your solution within this timeframe, as it is a critical performance indicator used by the hiring company to evaluate your work. The timer will begin when you click the start button and will stop upon your submission.
+Expected solution time ➡️ 8 hours. However, if you need more time, it will not affect your score. The timer will begin when you click the start button and will stop upon your submission
 
 ---
 
@@ -149,7 +149,7 @@ Ensure that the project environment is configured to use Python 3.12. The librar
 
 ## 📤 Submission
 
-Submit a `predictions_1.json` file for the queries in task 1 and a `predictions_2.json` file containing the recommendations made by your model. Ensure the file is formatted correctly, you are provided with the example submission files in the folder `/predictions` .
+Submit a `predictions_1.json` file for the queries in task 1 and a `predictions_3.json` file containing the recommendations made by your model (Task 3). Ensure the file is formatted correctly, you are provided with the example submission files in the folder `/predictions` .
 
 
 ## 📊 Evaluation
@@ -171,7 +171,7 @@ The grading system will be the following:
 **⚠️ Please note:**  
 All submissions might undergo a manual code review process to ensure that the work has been conducted honestly and adheres to the highest standards of academic integrity. Any form of dishonesty or misconduct will be addressed seriously, and may lead to disqualification from the challenge.
 
-Ensure that all data manipulation and model training strictly utilize the libraries mentioned in `requirements.txt`.
+Ensure that all data manipulation, functions and model training strictly utilize the libraries mentioned in `requirements.txt`. Remember to add your additional libraries if needed!
 
 
 ## ❓ FAQs
