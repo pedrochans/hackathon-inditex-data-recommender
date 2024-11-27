@@ -210,4 +210,4 @@ A1: In the command line, write the command `python -m pytest tests/function_test
 A2: Submit your solution via Git. Once your code and predictions are ready,commit your changes to the main branch and push your repository. Your submission will be graded automatically within a few minutes. Make sure to write meaningful commit messages.
 
 #### **Q3: I cannot see any result for my function in Task 2**
-Make sure you have written the programming language you are using in the `language.txt` file. You must write one of these three oprions: Python , R, Java. 
+Make sure you have written the programming language you are using in the `language.txt` file. You must write one of these three options: Python , R, Java. 
