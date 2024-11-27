@@ -119,7 +119,7 @@ The `/predictions` folder should contain the tasks outputs for the questions in 
 ## 🎯 Tasks
 This challenge will include three tasks: an initial exploratory task with questions and a second task for function creation to assess general query knowledge, followed by a final task focused on creating a recommender system. **The primary focus will be on the recommender task.**
 
-- **Task 1:** Answer the following questions and develop two functions about the train, clients and products datasets:
+#### **Task 1:** Answer the following questions and develop two functions about the train, clients and products datasets:
     - **Q1:** Which product (`partnumber`) with `color_id` equal to 3   belongs to the lowest `familiy` code with a `discount`? 
     - **Q2:** In the country where most users have made purchases totaling less than 500 (`M`) , which is the user who has the lowest purchase frequency (`F`), the most recent purchase (highest `R`) and the lowest `user_id`? Follow the given order of variables as the sorting priority.
     - **Q3:** Among the products that were added to the cart at least once, how many times is a product visited before it is added to the cart in average? Give the answer with 2 decimals.
@@ -127,7 +127,7 @@ This challenge will include three tasks: an initial exploratory task with questi
     - **Q5:**Among users with purchase frequency (`F`) in the top 3 within their purchase country, who has interacted with the most products (`partnumber`) in sessions conducted from a device with identifierr 3 (`device_type` = 3)?
     - **Q6:** For interactions that occurred outside the user's country of residence, how many unique family identifiers are there?
     - **Q7:** Among interactions from the first 7 days of June, which is the most frequent page type where each family is added to the cart? Return it in the following format: `{'('family'): int('most_frequent_pagetype')}` . In case of a tie, return the smallest pagetype.
-- **Task 2:** Develop the following function:
+#### **Task 2:** Develop the following function:
     - **Function:** Given a DataFrame with the format of the TRAIN dataset, return a the following data: user identifier (`user_id`), session identifier (`session_id`), total session duration in seconds (`total_session_time`), and the percentage of products added to the cart out of the total products interacted with (`cart_addition_ratio`). The result should be sorted in ascending order by user identifier and then by session identifier.
 
 You can implement this function in Python, R or Java.
@@ -157,8 +157,7 @@ public class SessionMetrics {
 ```
 
 
-- **Task 3:**
-  You are tasked with building a **recommendation system** to suggest **five products** for each session ID. 
+#### **Task 3:** Build a **recommendation system** to suggest **five products** for each session ID. 
 
   You are provided with data on products, customers, and a training dataset (Train). The test dataset (Test) is balanced across four customer types:
 
@@ -204,11 +203,11 @@ All submissions might undergo a manual code review process to ensure that the wo
 
 ## ❓ FAQs
 
-**Q1: How do I run the sample tests?**
+#### **Q1: How do I run the sample tests?**
 A1: In the command line, write the command `python -m pytest tests/function_tests.py` for Task 2. Ensure the `train.csv` file is located in the `/data/raw/` directory. You need to have the libraries pytest and pandas installed.
 
-**Q2: How do I submit my solution?**
+#### **Q2: How do I submit my solution?**
 A2: Submit your solution via Git. Once your code and predictions are ready,commit your changes to the main branch and push your repository. Your submission will be graded automatically within a few minutes. Make sure to write meaningful commit messages.
 
-**Q3: I cannot see any result for my function in Task 2**
+#### **Q3: I cannot see any result for my function in Task 2**
 Make sure you have written the programming language you are using in the `language.txt` file. You must write one of these three oprions: Python , R, Java. 
