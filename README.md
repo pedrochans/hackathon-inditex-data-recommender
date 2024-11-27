@@ -120,15 +120,15 @@ The `/predictions` folder should contain the tasks outputs for the questions in 
 This challenge will include three tasks: an initial exploratory task with questions and a second task for function creation to assess general query knowledge, followed by a final task focused on creating a recommender system. **The primary focus will be on the recommender task.**
 
 #### **Task 1:** Answer the following questions and develop two functions about the train, clients and products datasets:
-    - **Q1:** Which product (`partnumber`) with `color_id` equal to 3   belongs to the lowest `familiy` code with a `discount`? 
-    - **Q2:** In the country where most users have made purchases totaling less than 500 (`M`) , which is the user who has the lowest purchase frequency (`F`), the most recent purchase (highest `R`) and the lowest `user_id`? Follow the given order of variables as the sorting priority.
-    - **Q3:** Among the products that were added to the cart at least once, how many times is a product visited before it is added to the cart in average? Give the answer with 2 decimals.
-    - **Q4:** Which device (`device_type`) is most frequently used by users to make purchases (`add_to_cart` = 1) of discounted products (`discount` = 1)?
-    - **Q5:**Among users with purchase frequency (`F`) in the top 3 within their purchase country, who has interacted with the most products (`partnumber`) in sessions conducted from a device with identifierr 3 (`device_type` = 3)?
-    - **Q6:** For interactions that occurred outside the user's country of residence, how many unique family identifiers are there?
-    - **Q7:** Among interactions from the first 7 days of June, which is the most frequent page type where each family is added to the cart? Return it in the following format: `{'('family'): int('most_frequent_pagetype')}` . In case of a tie, return the smallest pagetype.
+  - **Q1:** Which product (`partnumber`) with `color_id` equal to 3   belongs to the lowest `familiy` code with a `discount`? 
+  - **Q2:** In the country where most users have made purchases totaling less than 500 (`M`) , which is the user who has the lowest purchase frequency (`F`), the most recent purchase (highest `R`) and the lowest `user_id`? Follow the given order of variables as the sorting priority.
+  - **Q3:** Among the products that were added to the cart at least once, how many times is a product visited before it is added to the cart in average? Give the answer with 2 decimals.
+  - **Q4:** Which device (`device_type`) is most frequently used by users to make purchases (`add_to_cart` = 1) of discounted products (`discount` = 1)?
+  - **Q5:** Among users with purchase frequency (`F`) in the top 3 within their purchase country, who has interacted with the most products (`partnumber`) in sessions conducted from a device with identifierr 3 (`device_type` = 3)?
+  - **Q6:** For interactions that occurred outside the user's country of residence, how many unique family identifiers are there?
+  - **Q7:** Among interactions from the first 7 days of June, which is the most frequent page type where each family is added to the cart? Return it in the following format: `{'('family'): int('most_frequent_pagetype')}` . In case of a tie, return the smallest pagetype.
 #### **Task 2:** Develop the following function:
-    - **Function:** Given a DataFrame with the format of the TRAIN dataset, return a the following data: user identifier (`user_id`), session identifier (`session_id`), total session duration in seconds (`total_session_time`), and the percentage of products added to the cart out of the total products interacted with (`cart_addition_ratio`). The result should be sorted in ascending order by user identifier and then by session identifier.
+  - **Function:** Given a DataFrame with the format of the TRAIN dataset, return a the following data: user identifier (`user_id`), session identifier (`session_id`), total session duration in seconds (`total_session_time`), and the percentage of products added to the cart out of the total products interacted with (`cart_addition_ratio`). The result should be sorted in ascending order by user identifier and then by session identifier.
 
 You can implement this function in Python, R or Java.
 #### ⚠️ IMPORTANT: Make sure to write the desired language in the `language.txt` file (options: Python , R, Java).
