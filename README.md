@@ -1,4 +1,4 @@
-# Recomender System 
+# Recommender System 
 
 Category   ➡️   Data Science
 
