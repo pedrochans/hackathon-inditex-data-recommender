@@ -1,4 +1,4 @@
-from data.data_functions import get_session_metrics
+from data.session_metrics import get_session_metrics
 import pandas as pd
 import os
 
