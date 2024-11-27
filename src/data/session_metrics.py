@@ -22,14 +22,5 @@ def get_session_metrics(df: pd.DataFrame, user_id: int) -> pd.DataFrame:
     Returns
     -------
     Pandas Dataframe with some metrics for all the sessions of the given user.
-
     """
-
-    return pd.DataFrame(
-        {
-            "user_id": [],
-            "session_id": [],
-            "total_session_time": [],
-            "cart_addition_ratio": [],
-        }
-    )
+    ...
