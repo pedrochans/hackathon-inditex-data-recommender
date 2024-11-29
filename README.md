@@ -97,12 +97,16 @@ The repository structure is provided and must be adhered to strictly:
 │   │   ├── (functions to call the API)    
 │   │   ├── (answer the questions in task 1) 
 │   │   ├── session_metrics.py       
-│   │   ├── session_metrics.R       
-│   │   └── java_function   
-│   │     └── SessionMetrics.java
+│   │   └── session_metrics.R       
 │   │
 │   └── models/
 │       └── (prepare your data and create the model)        
+│
+├── src_java/ 
+│   └── main/ 
+│       └── java/
+│           └── java_function/
+│               └── SessionMetrics.java
 │
 ├── tests/                      
 │   ├── function_test.py       
@@ -131,7 +135,7 @@ This challenge will include three tasks: an initial exploratory task with questi
   - **Function:** Given a DataFrame with the format of the TRAIN dataset, return a the following data: user identifier (`user_id`), session identifier (`session_id`), total session duration in seconds (`total_session_time`), and the percentage of products added to the cart out of the total products interacted with (`cart_addition_ratio`). The result should be sorted in ascending order by user identifier and then by session identifier.
 
 You can implement this function in Python, R or Java.
-#### ⚠️ IMPORTANT: Make sure to write the desired language in the `language.txt` file (options: Python , R, Java).
+#### ⚠️ IMPORTANT: Make sure to write the desired language in the `language.txt` file (options: Python , R, Java). Do **not** modify the given structure of folders for the `/java_function/SessionMetrics.java` .
 
 - Python:
 ```python
@@ -145,6 +149,7 @@ get_session_metrics <- function(df, user_id) {
 }
 ```
 - Java
+
 ```java
 public class SessionMetrics {
     /**
