@@ -1,12 +1,11 @@
 # Recommender System 
 
-Category   ➡️   Data Science
+## 🙋🏽‍♂️ Mi experiencia Personal
 
-Subcategory   ➡️   Recommender systems
-
-Difficulty   ➡️   Medium
-
-Expected solution time ➡️ 8 hours. However, if you need more time, it will not affect your score. The timer will begin when you click the start button and will stop upon your submission
+Hola, me alegra compartir mi primer Hackathon en solitario en el mundo de los datos. Ha sido toda una experiencia de aprendizaje, desde el momento en el que obtener los datos del reto pasaba por hacer llamadas asíncronas con un semáforo a una API, abrir un .pkl o transformar un JSON, pasando luego por explorar los embeddings de imágenes, o los modelos de sistemas de recomendación. LightGBM fue el modelo por el que empecé y terminé, pasando por pruebas con ALS, redes neuronales, regresores y clasificadores.
+Desde luego fue un reto, y me quedo con todo lo aprendido. Me arrepiento y espero mejorar en no haber trabajado con un dataset pequeño hasta dar con una buena fórmula y luego dar el salto a los 46M de registros del dataset de entrenamiento, y también de no haber centrado el tiro más en la limpieza de los datos.
+Por otra parte creo que fue un acierto intentar plantear las recomendaciones como una jerarquía de mayor a menor nivel de precisión, dando importancia a los usuarios que estaban tanto en train como test, luego un sistema de predicción del éxito del artículo convencional basado en las visitas, y finalmente completar lsa recomendaciones con productos similares en base a las visitas.
+Estoy contento de haber quedado en una 8ª posición, y seguro que repetiré en un futuro.
 
 ---
 
